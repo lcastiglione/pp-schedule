@@ -10,7 +10,7 @@ Esta librería contiene funciones para el manejo de tiempos y fechas.
 
 ## Instalación
 
-- `pipenv install git+https://github.com/lcastiglione/pp-schedule`
+- `pipenv install git+https://github.com/lcastiglione/pp-schedule#egg=schedule`
 
 
 ## Tests
