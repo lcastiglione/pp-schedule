@@ -4,15 +4,36 @@
 
 Esta librería contiene funciones para el manejo de tiempos y fechas.
 
+
+
 ## Desarrollo
 
-- Crear archivo `requirements.txt`: `pipenv requirements > requirements.txt`
+Crear archivo `requirements.txt`: 
+
+```bash
+pipenv requirements > requirements.txt
+```
+
+Tests:
+
+```bash
+python -m unittest discover -s 'tests' -p 'test_schedule.py'
+```
+
+
 
 ## Instalación
 
-- `pipenv install git+https://github.com/lcastiglione/pp-schedule#egg=schedule`
+```bash
+pipenv install git+https://github.com/lcastiglione/pp-schedule#egg=schedule
+```
 
 
-## Tests
 
-`python -m unittest discover -s 'tests' -p 'test_schedule.py'`
+## Aplicación
+
+```python
+from schedule import schedule
+
+print(schedule.today())
+```
