@@ -1,2 +1,1 @@
--i https://pypi.org/simple
 pytz==2023.3
