@@ -8,7 +8,7 @@ Esta librería contiene funciones para el manejo de tiempos y fechas.
 
 ## Desarrollo
 
-Crear archivo `requirements.txt`: 
+Crear archivo `requirements.txt`:
 
 ```bash
 pipenv requirements > requirements.txt
@@ -30,7 +30,7 @@ pipenv install git+https://github.com/lcastiglione/pp-schedule#egg=schedule
 
 
 
-## Aplicación
+## Ejemplo de uso
 
 ```python
 from schedule import schedule
