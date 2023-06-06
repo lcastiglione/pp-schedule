@@ -36,7 +36,7 @@ git push --delete origin <tag>      # Subir tag a repositorio remoto
 ## Instalación
 
 ```bash
-pipenv install git+https://github.com/lcastiglione/pp-schedule#egg=schedule
+pipenv install git+https://github.com/lcastiglione/pp-schedule.git@<tag>#egg=schedule
 ```
 
 
