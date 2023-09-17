@@ -12,7 +12,7 @@ import pytz
 
 
 tz_default = pytz.timezone('America/Argentina/Buenos_Aires')
-LIST_DATE_FORMATS = ['%Y-%m-%d %H:%M:%S', '%Y-%m-%d', '%Y-%m-%dT%H:%M:%S.%f', '%Y-%m-%dT%H:%M:%S']
+LIST_DATE_FORMATS = ['%Y-%m-%d %H:%M:%S', '%Y-%m-%d', '%Y-%m-%dT%H:%M:%S.%f','%Y-%m-%d %H:%M:%S.%f', '%Y-%m-%dT%H:%M:%S.%fZ', '%Y-%m-%dT%H:%M:%S']
 
 
 def timeit(_func=None, *, repeat: int = 1, number: int = 1, file=sys.stdout):
