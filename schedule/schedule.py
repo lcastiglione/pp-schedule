@@ -99,7 +99,7 @@ def today(tz=tz_default) -> datetime:
     return datetime.now(tz=tz)
 
 
-def is_bussines_day(actual_day: datetime = today(), holidays: dict = None) -> bool:
+def is_bussines_day(actual_day: datetime=None, holidays: dict = None) -> bool:
     """
     Determina si un día es laborable.
 
@@ -110,6 +110,8 @@ def is_bussines_day(actual_day: datetime = today(), holidays: dict = None) -> bo
     Returns:
         bool: True si el día es laborable, False de lo contrario.
     """
+    if not actual_day:
+        actual_day=today()
     if date.weekday(actual_day) > 4:
         return False
     if holidays and actual_day.year in holidays:
