@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='schedule',
-    version='0.0.3',
+    version='0.0.4',
     author='Ing. Leonardo Castiglione',
     author_email='',
     description='Paquete con funciones auxiliares para el manejo de tiempos y fechas con Python',

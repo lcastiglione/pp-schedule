@@ -32,6 +32,8 @@ python -m unittest discover -s 'tests' -p 'test_schedule.py'
 ### Control de versiones:
 
 ```bash
+Primero, actualizar la versión en el setup.py.
+
 git tag -a <tag> -m "<descripcion>" # Crear tag local
 git push origin <tag> 				# Subir tag a repositorio remoto
 git tag -d <tag> 					# Eliminar tag en forma local
